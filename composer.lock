@@ -4,9 +4,64 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e3c0e5b6c66512109d0d8d9d56025829",
-    "content-hash": "29e27bdb17f0d2b23ec7f2740349364f",
-    "packages": [],
+    "hash": "a351b4a4bf93343f2b4dca9540b9e28c",
+    "content-hash": "279b5fbe9cd80c50a5f7cf366d15a664",
+    "packages": [
+        {
+            "name": "php-amqplib/php-amqplib",
+            "version": "v2.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-amqplib/php-amqplib.git",
+                "reference": "eb8f94d97c8e79900accf77343dbd7eca7f58506"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-amqplib/php-amqplib/zipball/eb8f94d97c8e79900accf77343dbd7eca7f58506",
+                "reference": "eb8f94d97c8e79900accf77343dbd7eca7f58506",
+                "shasum": ""
+            },
+            "require": {
+                "ext-bcmath": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "suggest": {
+                "ext-sockets": "Use AMQPSocketConnection"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PhpAmqpLib\\": "PhpAmqpLib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Alvaro Videla"
+                }
+            ],
+            "description": "This library is a pure PHP implementation of the AMQP protocol. It's been tested against RabbitMQ.",
+            "homepage": "https://github.com/videlalvaro/php-amqplib/",
+            "keywords": [
+                "message",
+                "queue",
+                "rabbitmq"
+            ],
+            "time": "2015-08-11 12:30:09"
+        }
+    ],
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
